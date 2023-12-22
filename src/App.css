@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.navbar {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.netflixLogo {
+  width: 10rem;
+  height: 5rem;
+}
+.avatarLogo {
+  width: 50px;
+  height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.copertinafilm {
+  padding: 10px;
+  width: 20rem;
+  height: 25rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.copertinafilm:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+footer a {
+  margin: 2rem;
+}
+
+footer svg {
+  width: 25px;
+  height: 25px;
+}
+
+.socialIconContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-top: 1px solid white;
+  height: 10vh;
 }
